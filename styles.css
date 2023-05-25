@@ -168,4 +168,32 @@ a {
     margin: 20px auto;
 }
 
+[comment-container] {
+    display: flex;
+    margin-top: 10px;
+}
 
+[avatar-left] img {
+    max-width: 30px;
+    display: block;
+    margin: 0;
+    border-radius: var(--borradius);
+}
+
+[avatar-right] {
+    font-size: var(--descsize);
+    /* line-height: var(--lineheight);*/
+    text-transform: capitalize;
+    margin: auto 5px;
+}
+
+[comment] {
+    border-left: 2px solid var(--minty);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+[comment] p {
+    font-size: var(--descsize);
+    margin-left: 5px;
+}
