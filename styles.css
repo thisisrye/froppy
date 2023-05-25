@@ -32,11 +32,11 @@ font-family: 'Wix Madefor Text', sans-serif; */
     top: 0;
     line-height: 1.8;
     font-size: var(--headingsize);
-    background: rgba(199, 233, 176, 0.62);
+    background: rgba( 164, 188, 146, 0.6 );
     text-align: center;
     text-transform: capitalize;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
     z-index: 10;
     padding: 4px;
     box-sizing: border-box;
@@ -78,10 +78,11 @@ font-family: 'Wix Madefor Text', sans-serif; */
 }
 
 [post] {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 2rem;
     position: relative;
     top: 0;
+    margin-bottom: 20px;
 }
 
 [sidebar ] {
@@ -146,6 +147,25 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
+[theme-title] {
+    font-size: var(--headingsize);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--cremegreen);
+    width: 50%;
+    margin: 0 auto;
+}
 
+[theme-desc] p {
+    font-size: var(--descsize);
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 20px;
+}
+
+.theme-separator {
+    border: 1px solid var(--mint);
+    margin: 20px auto;
+}
 
 
