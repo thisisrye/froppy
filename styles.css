@@ -197,3 +197,7 @@ a {
     font-size: var(--descsize);
     margin-left: 5px;
 }
+
+/* .long img {
+    height: 100vh;
+} */
