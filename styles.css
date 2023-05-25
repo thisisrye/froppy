@@ -4,6 +4,7 @@
     box-sizing: border-box;
     transition: all 0.1s ease-in-out;
     scroll-behavior: smooth;
+    font-family: 'Wix Madefor Text', sans-serif;
 }
 
 :root {
@@ -11,5 +12,47 @@
     --cremegreen: #C7E9B0;
     --mint: #B3C99C;
     --minty: #A4BC92;
+
+    --font: font-family: 'Wix Madefor Text', sans-serif;
+
+    --headingsize: 12px;
+    --descsize: 9px;
+}
+
+[top-bar-title] {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    line-height: 1.8;
+    font-size: var(--headingsize);
+    background: rgba(179, 201, 156, 0.72);
+    text-align: center;
+    text-transform: capitalize;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 10;
+    padding: 4px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+}
+
+.container {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: calc(80% - 90px);
+    border: 2px solid red;
+    height: 100vh;
+}
+
+[post-container] {
+    border: 2px solid #222;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
 }
 
