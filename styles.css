@@ -198,6 +198,45 @@ a {
     margin-left: 5px;
 }
 
-/* .long img {
-    height: 100vh;
-} */
+.friday-post {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 15px;
+    margin-bottom: 40px;
+}
+
+.friday-post .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: inline-block;    */
+}
+
+.gp1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gp2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gp3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.gp4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
