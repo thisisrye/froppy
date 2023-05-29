@@ -240,3 +240,41 @@ a {
     grid-row-start: 4;
     grid-row-end: 7;
 }
+
+[color-palette-title] {
+    font-size: var(--headingsize);
+    /* letter-spacing: var(--fontspace); */
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: center ;
+}
+
+[color-palette] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.boxes {
+    border: 1px solid;
+    padding: 1rem;
+    width: calc(95%/4 - 30px);
+}
+
+.one {
+    background-color: var(--creme);
+}
+
+.two {
+    background-color: var(--cremegreen);
+}
+
+.three {
+    background-color: var(--mint);
+}
+
+.four {
+    background-color: var(--minty);
+}
