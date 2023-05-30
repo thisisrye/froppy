@@ -7,9 +7,19 @@
     font-family: 'Wix Madefor Text', sans-serif;
 }
 
-/* Font */
-/* font-family: 'Baloo Da 2', cursive;
-font-family: 'Wix Madefor Text', sans-serif; */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 20pc;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background: var(--minty); 
+    /* border-radius: var(--borradius); */
+  }
 
 :root {
     --creme: #DDFFBB;
@@ -305,6 +315,11 @@ a {
     font-size: var(--descsize);
     margin: 7px 0;
     text-transform: capitalize;
+    margin: 20px 0;
+}
+
+[theme-desc-samplepost] ul li {
+    padding: 3px 0;
 }
 
 [theme-desc-samplepost] p {
@@ -316,4 +331,15 @@ a {
 
 [theme-desc-samplepost] p:nth-child(3) {
     margin-top: 0;
+}
+
+[tag-container] {
+    text-align: right;
+    font-size: var(--descsize);
+    margin: 5px 0;
+}
+
+[tag-container] a {
+    margin: 0 2px;
+    color: #222;
 }
