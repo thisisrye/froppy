@@ -115,7 +115,7 @@
 }
 
 [post] img {
-    max-width: 317px;
+    max-width: 324px;
     object-fit: contain;
     width: 100%;
     margin-top: 20px;
@@ -342,4 +342,8 @@ a {
 [tag-container] a {
     margin: 0 2px;
     color: #222;
+}
+
+[theme-desc-samplepost] a {
+    color: var(--minty);
 }
